@@ -35,7 +35,7 @@
   "short_name": "JATE",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": ".",
+  "start_url": "./",
   "description": "progressive web app text editor",
   "theme_color": "#f5f5f5",
   "background_color": "#31a9e1"
