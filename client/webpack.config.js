@@ -38,6 +38,7 @@ module.exports = () => {
         description: 'progressive web app text editor',
         theme_color:'#f5f5f5',
         background_color: '#31a9e1',
+        start_url: './',
         publicPath: '/',
         icons: [
           {
@@ -56,8 +57,7 @@ module.exports = () => {
           use: ['style-loader', 'css-loader' ]
         },
         {
-          test: /\.(png|svg|jpg|jpeg|gif)$/i,
-          type: 'asset/resource',
+          test: /\.m?js$/i,
           exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
